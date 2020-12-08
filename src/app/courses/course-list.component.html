@@ -1,1 +1,27 @@
-<a>kkkkkk</a>
+<table class="table table-striped">
+    <thead> 
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Imagem</th>
+            <th>Price</th>
+            <th>Code</th>
+            <th>Dutation</th>
+            <th>Rating</th>
+            <th>ReleaseDate</th>
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let course of courses" >
+            <td>{{ course.id }}</td>
+            <td>{{ course.name }}</td>
+            <td>{{ course.imageUrl }}</td>
+            <td>{{ course.price }}</td>
+            <td>{{ course.code }}</td>
+            <td>{{ course.duration }}</td>
+            <td>{{ course.rating }}</td>
+            <td>{{ course.releaseDate }}</td>
+        </tr>
+    </tbody>
+</table>
