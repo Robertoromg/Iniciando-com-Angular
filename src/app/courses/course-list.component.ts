@@ -15,7 +15,7 @@ export class CourseListComponent implements OnInit {
             {
                 id: 1 ,
                 name: 'Bootcamp Everis',
-                imageUrl: '',
+                imageUrl: '/assets/images/forms.png',
                 price: 99.99,
                 code: 'XPS-996',
                 duration: 120,
@@ -25,7 +25,7 @@ export class CourseListComponent implements OnInit {
             {
                 id: 2 ,
                 name: 'Melhor do Brasil',
-                imageUrl: '',
+                imageUrl: '/assets/images/http.png',
                 price: 100,
                 code: 'EVS-2020',
                 duration: 60,
