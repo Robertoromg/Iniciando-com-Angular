@@ -1,5 +1,6 @@
 import { Component, Input} from '@angular/core';
 import { OnChanges } from '@angular/core';
+
 @Component({
     selector: 'app-star',
     templateUrl: './star.component.html',
